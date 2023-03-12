@@ -6,8 +6,8 @@ import java.util.List;
 public class ListRooms {
 	public static List<Room> getlistRoomBeta() {
 		Room beta1 = new Room("Beta1", ListTimeBeta.getListTimeBeta1());
-		Room beta2 = new Room("Beta1", ListTimeBeta.getListTimeBeta2());
-		Room beta3 = new Room("Beta1", ListTimeBeta.getListTimeBeta3());
+		Room beta2 = new Room("Beta2", ListTimeBeta.getListTimeBeta2());
+		Room beta3 = new Room("Beta3", ListTimeBeta.getListTimeBeta3());
 		
 		List<Room> listRoomBeta = new ArrayList<>();
 		listRoomBeta.add(beta1);

@@ -29,7 +29,7 @@ public class Ticket {
 
 	@Override
 	public String toString() {
-		return "Ticket [movieName: " + movieName + ", seat: " + listSeat + "]";
+		return "Ticket [movieName: " + movieName + ", listSeat: " + listSeat + "]";
 	}
 	
 	
