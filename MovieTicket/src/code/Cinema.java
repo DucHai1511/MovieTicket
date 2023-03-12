@@ -29,17 +29,17 @@ public class Cinema {
 		this.address = address;
 	}
 
-	public List<Room> getListRoom() {
-		return listRoom;
-	}
-
-	public void setListRoom(List<Room> listRoom) {
-		this.listRoom = listRoom;
-	}
+//	public Room getRoom() {
+//		return room;
+//	}
+//
+//	public void setRoom(Room room) {
+//		this.room = room;
+//	}
 
 	@Override
 	public String toString() {
-		return "Cinema [cinemaName: " + cinemaName + ", address: " + address + ", listRoom: " + listRoom + "]";
+		return "Cinema [cinemaName: " + cinemaName + ", address: " + address + "\n listRoom: " + listRoom + "]";
 	}
 	
 	
