@@ -29,13 +29,13 @@ public class Cinema {
 		this.address = address;
 	}
 
-//	public Room getRoom() {
-//		return room;
-//	}
-//
-//	public void setRoom(Room room) {
-//		this.room = room;
-//	}
+	public List<Room> getListRoom() {
+		return listRoom;
+	}
+
+	public void setListRoom(List<Room> listRoom) {
+		this.listRoom = listRoom;
+	}
 
 	@Override
 	public String toString() {

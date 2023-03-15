@@ -19,13 +19,13 @@ public class Room {
 		this.roomName = roomName;
 	}
 
-//	public Time getTime() {
-//		return time;
-//	}
-//
-//	public void setTime(Time time) {
-//		this.time = time;
-//	}
+	public List<Time> getListTime() {
+		return listTime;
+	}
+
+	public void setListTime(List<Time> listTime) {
+		this.listTime = listTime;
+	}
 
 	@Override
 	public String toString() {

@@ -19,13 +19,13 @@ public class Ticket {
 		this.movieName = movieName;
 	}
 
-//	public Seat getSeat() {
-//		return seat;
-//	}
-//
-//	public void setListSeat(Seat seat) {
-//		this.seat = seat;
-//	}
+	public List<List<Seat>> getListSeat() {
+		return listSeat;
+	}
+
+	public void setListSeat(List<List<Seat>> listSeat) {
+		this.listSeat = listSeat;
+	}
 
 	@Override
 	public String toString() {
