@@ -1,7 +1,9 @@
-package code;
+package Data;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Model.Room;
 
 public class ListRooms {
 	public static List<Room> getlistRoomBeta() {

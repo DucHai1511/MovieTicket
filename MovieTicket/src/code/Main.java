@@ -5,6 +5,12 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+import Data.ListRooms;
+import Model.Cinema;
+import Model.Room;
+import Model.Seat;
+import Model.Time;
+
 public class Main {
 	public static List<Cinema> listCinema = new ArrayList<>();
 	public static void main(String[] args) {

@@ -1,7 +1,10 @@
-package code;
+package Data;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Model.Ticket;
+import Model.Time;
 
 public class ListTimeCgv {
 	public static List<Time> getListTimeCgv1() {
